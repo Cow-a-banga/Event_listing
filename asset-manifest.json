@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Event_listing/static/css/main.1bd1d7cc.chunk.css",
+    "main.js": "/Event_listing/static/js/main.915f0702.chunk.js",
+    "main.js.map": "/Event_listing/static/js/main.915f0702.chunk.js.map",
+    "runtime-main.js": "/Event_listing/static/js/runtime-main.9dd77095.js",
+    "runtime-main.js.map": "/Event_listing/static/js/runtime-main.9dd77095.js.map",
+    "static/js/2.9c1cfec7.chunk.js": "/Event_listing/static/js/2.9c1cfec7.chunk.js",
+    "static/js/2.9c1cfec7.chunk.js.map": "/Event_listing/static/js/2.9c1cfec7.chunk.js.map",
+    "index.html": "/Event_listing/index.html",
+    "static/css/main.1bd1d7cc.chunk.css.map": "/Event_listing/static/css/main.1bd1d7cc.chunk.css.map",
+    "static/js/2.9c1cfec7.chunk.js.LICENSE.txt": "/Event_listing/static/js/2.9c1cfec7.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Event_listing/static/media/AvenirMedium.c185943b.ttf",
+    "static/media/Filters.module.css": "/Event_listing/static/media/Vector.c381148f.svg",
+    "static/media/markbook_checked.e1bc097d.svg": "/Event_listing/static/media/markbook_checked.e1bc097d.svg",
+    "static/media/markbook_unchecked.405cea49.svg": "/Event_listing/static/media/markbook_unchecked.405cea49.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9dd77095.js",
+    "static/js/2.9c1cfec7.chunk.js",
+    "static/css/main.1bd1d7cc.chunk.css",
+    "static/js/main.915f0702.chunk.js"
+  ]
+}

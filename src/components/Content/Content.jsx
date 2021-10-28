@@ -14,7 +14,7 @@ const Content = ({data}) => {
         <div>
             <Filters data={data} currentCity={currentCity} currentMonth={currentMonth} isFavorites={isFavorites} 
                      setCurrentCity={setCurrentCity} setCurrentMonth={setCurrentMonth} setIsFavorites={setIsFavorites}/>
-            <Cards data={data} currentCity={currentCity} currentMonth={currentMonth}/>
+            <Cards data={data} currentCity={currentCity} currentMonth={currentMonth} isFavorites={isFavorites}/>
         </div>
     );
 };

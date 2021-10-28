@@ -1,9 +1,10 @@
 .filter{
-    margin-bottom: 42px;
+    margin-bottom: 42px;   
 }
 
 .filter_block{
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
 }
 
 
@@ -37,4 +38,11 @@ select{
     line-height: 33px;  
 
     color: #2E282C;
+}
+
+.favorites_checkbox{
+    border: 1px solid #444444;
+    color: #2E282C;
+    width: 30px;
+    height: 30px;
 }

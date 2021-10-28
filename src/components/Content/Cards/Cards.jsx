@@ -2,7 +2,7 @@ import React from 'react'
 import Card from '../Card/Card'
 import styles from './Cards.module.css'
 
-const Cards = ({data, currentCity, currentMonth}) => {
+const Cards = ({data, currentCity, currentMonth, isFavorites}) => {
 
     const monthsNames = {
         1: "January",
@@ -28,7 +28,9 @@ const Cards = ({data, currentCity, currentMonth}) => {
     const filterData = () => {
         const cards = [];
         data.forEach(d => {
-            if((currentCity === "All" || d.city === currentCity) && (currentMonth === "All" || DateToMonth(d.date) === currentMonth))
+            if((currentCity === "All" || d.city === currentCity) &&
+              (currentMonth === "All" || DateToMonth(d.date) === currentMonth) &&
+              (isFavorites && localStorage.getItem(d.id) === "true" || !isFavorites))
                 cards.push(d);
         });
         return cards

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from './Filters.module.css'
 
-const Filters = ({data, currentCity, currentMonth, isFavorite, setCurrentCity, setCurrentMonth, setIsFavorite}) => {
+const Filters = ({data, currentCity, currentMonth, isFavorites, setCurrentCity, setCurrentMonth, setIsFavorites}) => {
 
   var cities = new Set(["All"]);
   var months = new Set();
@@ -63,6 +63,10 @@ const Filters = ({data, currentCity, currentMonth, isFavorite, setCurrentCity, s
           onChange={(item) => setCurrentMonth(item.target.value)}>
             {renderOptions(monthsArrNames)}
         </select>
+    </div>
+    <div className={styles.filter_block}>
+        <span className={styles.select_text}>Favorites:</span>
+        <input className={styles.favorites_checkbox} type="checkbox" onClick={(e)=>setIsFavorites(!isFavorites)}></input>
     </div>
     </div>
   );

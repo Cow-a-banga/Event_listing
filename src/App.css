@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Avenir';
+  src:  url('static/fonts/AvenirMedium.ttf')
+}
+
+@font-face {
+  font-family: 'Avenir-Bold';
+  src:  url('static/fonts/AvenirHeavy.ttf')
+}
+
+*{
+  margin: 0;
+  padding: 0;
+} 
+
+html{
+  background-color: #F0F3FF;
+}
+
+.container{
+  max-width: 1440px;
+  margin: 80px auto;
+  padding: 100px;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
+}

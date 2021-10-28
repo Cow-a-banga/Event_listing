@@ -1,0 +1,48 @@
+.card{
+    width: 600px;
+    height: 400px;
+    filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.1));
+    border-radius: 6px;
+    padding: 40px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.day{
+    font-family: "Avenir";
+    width: 80px;
+    height: 80px;
+    box-sizing: border-box;
+    font-size: 48px;
+    line-height: 66px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 6px;
+    border: 2px solid #FFFFFF;
+}
+
+.card_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card_title{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 66px;
+
+    color: #FFFFFF;
+}
